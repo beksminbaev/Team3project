@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #874ca1;
+  color: #fff;
+}
+.main-nav li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 15px;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-nav a:hover {
+  color: yellow;
+}
+.section {
+  background-color: #874ca1;
+  display: flex;
+  justify-content: center;
+}
+.sectionleft {
+  padding: 40px;
+  width: 500px;
+  margin-right: 50px;
+  color: #fff;
+}
+.sectionright img {
+  width: 200px;
+  height: 200px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+.sectiontwo {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.sectiontwo-left {
+  padding: 40px;
+  width: 500px;
+  color: black;
+  margin-right: 50px;
+}
+.sectiontwo-right img {
+  width: 300px;
+  height: 200px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+.section3 i {
+  font-size: 3rem;
+}
+.section3 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px 300px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "one1 one1 one1"
+    "two1 two1 three1"
+    "four1 five1 six1";
+  grid-gap: 20px;
+  text-align: center;
+  margin: 50px 250px;
+}
+.one {
+  grid-area: one1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 0px 12px -3px #000000;
+}
+.two {
+  grid-area: two1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 0px 12px -3px #000000;
+}
+.three {
+  grid-area: three1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 0px 12px -3px #000000;
+}
+.four {
+  grid-area: four1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 0px 12px -3px #000000;
+}
+.five {
+  grid-area: five1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 0px 12px -3px #000000;
+}
+.six {
+  grid-area: six1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 0px 12px -3px #000000;
+}
+.section3 p {
+  text-align: start;
+  margin-left: 20px;
+}
+.footer {
+  background-color: #280030;
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+}
+.nav-bot {
+  display: flex;
+  flex-direction: column;
+}
+.nav-bot a {
+  text-decoration: none;
+  color: #fff;
+}
+.socialmedia i {
+  font-size: 2rem;
+  margin: 10px;
+  color: #fff;
+}
+.nav-bot a:hover,
+.socialmedia i:hover {
+  color: yellow;
+}
+.copyright,
+.nav-bot,
+.socialmedia {
+  margin-top: 60px;
+}
